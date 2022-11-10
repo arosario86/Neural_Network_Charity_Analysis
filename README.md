@@ -3,24 +3,24 @@
 I have been tasked to work with Beks on creating a binary classifier that will helo her predict whether the applicants would be successful if they were funded by Alphabet Soup. The CSV she provided has over 34,000 organizations and we had to work on preparing the data before running any machine learning models.
 ## Results
 I did the following before running the models:
-    * Dropped non-beneficial columns such as 'EIN' and "NAME'
-    * Determined unique values for each column
-    * Viewed application type counts
-    * Visualize the counts
+* Dropped non-beneficial columns such as 'EIN' and "NAME'
+* Determined unique values for each column
+* Viewed application type counts
+* Visualize the counts
     
-    ![Value Counts](https://user-images.githubusercontent.com/104965708/200996209-5f38c19f-899a-4657-a37b-13beae11ed20.png)
+![Value Counts](https://user-images.githubusercontent.com/104965708/200998337-edd30bfa-08f9-4fe2-a77f-c85e6004cc26.png)
     
-    * Determined which values to replace in the application counts
-    * Viewed classification counts
+* Determined which values to replace in the application counts
+* * Viewed classification counts
     
-    ![Classification Counts](https://user-images.githubusercontent.com/104965708/200996349-e7966618-32e8-4ebd-ad7f-8ca5044a0133.png)
+![Classification Counts](https://user-images.githubusercontent.com/104965708/200996349-e7966618-32e8-4ebd-ad7f-8ca5044a0133.png)
     
-    * Determine which values to replace in the classification counts
-    * Generated categorical lists
-    * Created a One Hot Encoder
-    * Merge one hot encoder and drop originals
-    * Split the processed data into features and arrays 
-    * Create a standard scaler for the data
+* Determine which values to replace in the classification counts
+* Generated categorical lists
+* Created a One Hot Encoder
+* Merge one hot encoder and drop originals
+* Split the processed data into features and arrays 
+* Create a standard scaler for the data
 
 ## Summary
 Once the data was prepared and ready to train, I did the following to test the models:
